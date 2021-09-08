@@ -24,6 +24,14 @@ public class Test {
         
         System.out.println("Valores iguales? : "+af.igualQue(af));
         System.out.println("El alumno: "+bf.toString()+"\n Es mayor que "+af.toString()+" ?\n"+bf.mayorQue(af));
+        
+        Producto paf = new Producto(1,"Arroz",10.00);
+        Producto bbf = new Producto(2, "Cerveza", 11);
+        
+        //af.igualQue(af);
+        
+        System.out.println("Valores iguales? : "+af.igualQue(af));
+        System.out.println("El alumno: "+bf.toString()+"\n Es mayor que "+af.toString()+" ?\n"+bf.mayorQue(af));
     }
     
 }
